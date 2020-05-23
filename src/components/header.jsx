@@ -17,13 +17,13 @@ const Header = ({ siteTitle }) => (
     <Logo style={{ flex: 1 }} />
     <NavContainer>
       <Options>
-        <Link>Products</Link>
-        <Link>Customers</Link>
-        <Link>Pricing</Link>
-        <Link>Resources</Link>
+        <Link to="#">Products</Link>
+        <Link to="#">Customers</Link>
+        <Link to="#">Pricing</Link>
+        <Link to="#">Resources</Link>
       </Options>
       <Buttons>
-        <CustomButton notPrimary>Sign In</CustomButton>
+        <CustomButton notPrimary="true">Sign In</CustomButton>
         <CustomButton>Sign Up</CustomButton>
       </Buttons>
     </NavContainer>

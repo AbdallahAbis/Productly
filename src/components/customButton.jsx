@@ -2,8 +2,10 @@ import React from "react"
 
 import { Button } from "../styles/customButton.styles"
 
-const CustomButton = ({ notPrimary, children }) => (
-  <Button notPrimary={notPrimary}>{children}</Button>
+const CustomButton = ({ children, ...props }) => (
+  <Button to="#" {...props}>
+    {children}
+  </Button>
 )
 
 export default CustomButton
