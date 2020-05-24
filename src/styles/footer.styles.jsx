@@ -17,8 +17,8 @@ const grid = css`
 `
 
 export const FooterContainer = styled.div`
-  height: 30rem;
-  padding-top: 10rem;
+  height: 40rem;
+  padding: 10rem 15rem;
   font-size: 1.6rem;
   ${flex}
   div {

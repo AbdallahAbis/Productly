@@ -16,16 +16,20 @@ html{
 }
 
 body {
-    padding: 0 15rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background: var(--color-primary);
     max-width: 1680px;
+    overflow-x: hidden;
+    color: var(--color-dark);
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-dark);
 }
   
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--color-dark-lighter);
 }
 
 ul {

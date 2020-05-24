@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const HeaderContainer = styled.div`
   height: 8rem;
   width: 100%;
+  padding: 0 15rem;
 
   display: flex;
   justify-content: space-between;

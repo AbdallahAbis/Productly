@@ -2,7 +2,8 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const Button = styled(Link)`
-  height: 5rem;
+  display: inline-block;
+
   font-size: 1.6rem;
   font-weight: 700;
   border: ${({ notPrimary }) =>
